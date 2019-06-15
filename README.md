@@ -8,16 +8,16 @@ Instead of resizing heat maps and PAF maps to orignial input image, this code up
 
 ## Demo
 
-CPU: Intel® Xeon(R) W-2123 @ 3.60GHz × 8 
-GPU: Nvidia Quadro P4000 8G
+CPU: Intel® Xeon(R) W-2123 @ 3.60GHz × 8 </br>
+GPU: Nvidia Quadro P4000 8G </br>
 Input Image: 640x480
 
-| CMU's Original Model</br> on CPU | Mobilenet </br> on CPU |
+| CMU's Original Model on CPU | Mobilenet on CPU |
 |:---------|:--------------------|
 |<img src="images/CPU_CMU.gif"  width="300">|<img src="images/CPU_Mobilenet.gif"  width="300" >|
 | **~4 FPS** | **~8 FPS** |
 
-| CMU's Original Model</br> on GPU | Mobilenet </br> on GPU |
+| CMU's Original Model on GPU | Mobilenet on GPU |
 |:---------|:--------------------|
 |<img src="images/GPU_CMU.gif"  width="300">|<img src="images/GPU_Mobilenet.gif"  width="300" >|
 | **~10 FPS** | **~15 FPS** |
