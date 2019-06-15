@@ -21,3 +21,22 @@ Input Image: 640x480
 |:---------|:--------------------|
 |<img src="images/GPU_CMU.gif"  width="300">|<img src="images/GPU_Mobilenet.gif"  width="300" >|
 | **~10 FPS** | **~15 FPS** |
+
+## Model Download 
+
+download the [CMU pretrained weight](https://pan.baidu.com/s/1M74ZtnsERToqx4MvT6czAA), [Mobilenet weight] (https://pan.baidu.com/s/1bezyGZYYejGsUHZigbU9ag) and put into "weights" folder
+
+## Inference 
+
+* image Demo
+```
+$ python Demo_picture.py -backbone {CMU or Mobilenet} -image {image path} -scale {scale to image} -show {}
+```
+* Video Demo
+```
+$ python Demo_video.py -backbone {CMU or Mobilenet} -video {video path} -scale {scale to image} -show {}
+```
+-show provides an option to show the image with skeleton or a specific part location 
+
+## Tutorial
+refer to Open_Pose_Step_by_Step.ipynb for detailed instruction on how to implement openpose algorithm 
