@@ -2,7 +2,7 @@
 
 A reimplementation of real time human pose estimation using Pytorch. Both [CMU's original model](https://arxiv.org/abs/1611.08050) and [mobilenet version](https://arxiv.org/pdf/1811.12004.pdf) backbone are provided. 
 
-Instead of resizing heat maps and PAF maps to orignial input image, this code upsamples the feature map with factor 8 and then performed the NMS for peak location, bigartite grahps, line integral and grouping. 
+In order to speed up the code, instead of resizing heat maps and PAF maps to orignial input image, this code upsamples the feature map with factor 8 and then performed the NMS for peak location, bigartite grahps, line integral and grouping. 
 
 **You can reach ~ 15 frames per second using GPU**
 
@@ -24,7 +24,7 @@ Input Image: 640x480
 
 ## Model Download 
 
-download the [CMU pretrained weight](https://pan.baidu.com/s/1M74ZtnsERToqx4MvT6czAA), [Mobilenet weight] (https://pan.baidu.com/s/1bezyGZYYejGsUHZigbU9ag) and put into "weights" folder
+download the [CMU pretrained weight](https://pan.baidu.com/s/1M74ZtnsERToqx4MvT6czAA), [Mobilenet weight](https://pan.baidu.com/s/1bezyGZYYejGsUHZigbU9ag) and put into "weights" folder
 
 ## Inference 
 
@@ -39,4 +39,4 @@ $ python Demo_video.py -backbone {CMU or Mobilenet} -video {video path} -scale {
 -show provides an option to show the image with skeleton or a specific part location 
 
 ## Tutorial
-refer to Open_Pose_Step_by_Step.ipynb for detailed instruction on how to implement openpose algorithm 
+refer to **Open_Pose_Step_by_Step.ipynb** for detailed instruction on how to implement openpose algorithm 
