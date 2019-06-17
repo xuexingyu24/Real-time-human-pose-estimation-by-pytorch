@@ -42,8 +42,8 @@ $ python Demo_video.py -backbone {CMU or Mobilenet} -video {video path} -scale {
 refer to **Open_Pose_Step_by_Step.ipynb** for detailed instruction on how to implement openpose algorithm 
 
 ## Reference 
-https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation
-https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation
-https://github.com/Hzzone/pytorch-openpose
-https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch
+* https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation
+* https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation
+* https://github.com/Hzzone/pytorch-openpose
+* https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch
 
